@@ -1,0 +1,50 @@
+node_modules/
+dist/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.log
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+.DS_Store
+
+# Dependencies
+node_modules/
+.gradle/
+build/
+**/build/
+
+# Android local files
+android/local.properties
+*.keystore
+*.jks
+*.key
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Archives
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+
+# Project backups
+backup_*/
+src_backup_*/
+upgrades/
+*.backup_*
+*.before_*
+*.broken_*
+
+# Additional backup files
+*.backup*
+*.before*
+*.broken*
